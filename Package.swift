@@ -12,6 +12,6 @@ let package = Package(
         )
     ],
     targets: [
-        .binaryTarget(name: "CryptoSwift", path: "TKCryptoSwift/CryptoSwift.xcframework"),
+        .binaryTarget(name: "CryptoSwift", path: "CryptoSwift/CryptoSwift.xcframework"),
     ]
 )
